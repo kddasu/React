@@ -1,4 +1,5 @@
 import './App.css';
+import ViewMoreLess from './ViewMoreLess';
 
 function App() {
   const date = new Date();
@@ -11,6 +12,7 @@ function App() {
     <h2>{date.toDateString()}</h2>
     <h3>{year}/{month}/{day}</h3>
     </div>
+    <ViewMoreLess />
     </>
   );
 }
